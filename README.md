@@ -30,6 +30,9 @@ Vehicle, engine and calibration values are illustrative and come from no product
 Each folder holds the model (`model.js`), the 3D scene (`scene.js`) and the page
 logic (`main.js`, `ui.js`). The pages are built into single files with esbuild.
 
+## License
+MIT, see [LICENSE](LICENSE).
+
 ## Credits
 Bundled third-party code: three.js (MIT), the Teardown toolkit (MIT),
 Inter and JetBrains Mono fonts (SIL Open Font License).
