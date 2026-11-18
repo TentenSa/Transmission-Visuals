@@ -3,6 +3,10 @@
 Interactive 3D pages that show what a transmission control unit (TCU) does.
 Each page is one HTML file that runs offline in any browser.
 
+**Live pages**
+- [TCU: Transmission Control](https://tentensa.github.io/Transmission-Visuals/tcu-sim/)
+- [Four Ways to Change Ratio](https://tentensa.github.io/Transmission-Visuals/tx-types/)
+
 ## Pages
 
 ### 1. TCU: Transmission Control (`tcu-sim/`)
