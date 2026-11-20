@@ -6,6 +6,7 @@ Each page is one HTML file that runs offline in any browser.
 **Live pages**
 - [TCU: Transmission Control](https://tentensa.github.io/Transmission-Visuals/tcu-sim/)
 - [Four Ways to Change Ratio](https://tentensa.github.io/Transmission-Visuals/tx-types/)
+- [AMT: Automated Manual](https://tentensa.github.io/Transmission-Visuals/amt-sim/)
 
 ## Pages
 
@@ -22,8 +23,14 @@ One car, one pedal, one 14 s launch through an AT, a CVT, an AMT and a DCT.
 - Push at the wheels and engine speed for all four, side by side
 - Clutch-to-clutch handover, belt and pulleys, the AMT torque gap and the DCT clutch crossover, in 3D
 
+### 3. AMT: Automated Manual (`amt-sim/`)
+A cutaway of an automated manual transaxle, modelled on a published cutaway drawing, through a 14 s launch with three upshifts.
+- Seven numbered parts: clutch, concentric slave cylinder, clutch actuator with the TCU inside, master-cylinder piston, shift shaft and finger, engage motor, select motor
+- Every shift runs the same five steps: open the clutch, sleeve out, select the gate, engage, close the clutch
+- Shifts play at quarter speed so each actuator can be seen doing its part; the wheel-force chart shows the gap while the clutch is open
+
 ## Run
-Open `tcu-sim/index.html` or `tx-types/index.html` in a browser. No install, no network.
+Open any page's `index.html` in a browser. No install, no network.
 
 ## Data
 A generic model built from public engineering knowledge. The gear ratios and
